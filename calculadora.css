@@ -1,0 +1,86 @@
+body{
+    background-color: #222;
+    font-family: monospace;
+}
+#title{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    background-color: rgb(156, 34, 204);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#insertion{
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.textbox{
+    font-family: monospace;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.button{
+    font-family: monospace;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    background-color: rgb(142, 202, 74);
+    border-radius: 10px;
+    height: 38px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+#results{
+    background-color: rgb(129, 129, 129);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#subtitle{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    background-color: rgb(156, 34, 204);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.textboxr{
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+    font-family: monospace;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+#infocard{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(142, 202, 74);
+    margin: 5px;
+    border-radius: 10px;
+}
