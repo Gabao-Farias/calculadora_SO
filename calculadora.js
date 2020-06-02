@@ -303,7 +303,7 @@ function getQPL(){
 function setResults() {
     getDadosInseridos();
     let i = 0;
-    while(i <=10){
+    while(i <=1){
         resultData.ml = getML();
         resultData.mf = getMF();
         resultData.el = getEL();
