@@ -2,6 +2,7 @@ body{
     background-color: #222;
     font-family: monospace;
 }
+
 #title{
     text-align: center;
     font-size: 30px;
@@ -42,7 +43,7 @@ body{
     height: 38px;
     margin: 5px;
     cursor: pointer;
-  }
+}
 
 #results{
     background-color: rgb(129, 129, 129);
@@ -61,6 +62,27 @@ body{
     border-radius: 20px;
 }
 
+#results-infocard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#infocard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 180px;
+    height: 150px;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(142, 202, 74);
+    margin: 5px;
+    border-radius: 10px;
+}
+
 .textboxr{
     text-align: center;
     color: #333;
@@ -73,14 +95,4 @@ body{
     margin: 10px;
     border: none;
     border-radius: 15px;
-}
-
-#infocard{
-    text-align: center;
-    color: #fff;
-    font-size: 25px;
-    padding: 10px;
-    background-color: rgb(142, 202, 74);
-    margin: 5px;
-    border-radius: 10px;
 }
