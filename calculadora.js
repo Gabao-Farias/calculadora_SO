@@ -37,6 +37,19 @@ var resultData = {
     qpl: "-1"
 }
 
+function wipeData(){
+    resultData.deslocamento = "-1";
+    resultData.ef = "-1";
+    resultData.el = "-1";
+    resultData.mf = "-1";
+    resultData.ml = "-1";
+    resultData.npf = "-1";
+    resultData.npl = "-1";
+    resultData.qpf = "-1";
+    resultData.qpl = "-1";
+    resultData.tamP = "-1";
+}
+
 function pronto(){
     if(
         resultData.ml == "-1" ||
@@ -301,9 +314,10 @@ function getQPL(){
 }
 
 function setResults() {
+    wipeData();
     getDadosInseridos();
     let i = 0;
-    while(i <=1){
+    while(i <= 4){
         resultData.ml = getML();
         resultData.mf = getMF();
         resultData.el = getEL();
