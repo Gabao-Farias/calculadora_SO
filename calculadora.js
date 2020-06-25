@@ -231,11 +231,11 @@ function getNPL(){
                 if(resultData.qpl.indexOf("-") == -1){
                     let unidade = "";
                     let numero = Number(resultData.qpl.substring(0, resultData.qpl.length))
-                    return(converteQPparaNP(numero, unidade));
+                    return(`${converteQPparaNP(numero, unidade)}-b`);
                 }else{
                     let unidade = resultData.qpl.substring(resultData.qpl.indexOf("-") + 1, resultData.qpl.length);
                     let numero = Number(resultData.qpl.substring(0, resultData.qpl.indexOf("-")));
-                    return(converteQPparaNP(numero, unidade));
+                    return(`${converteQPparaNP(numero, unidade)}-b`);
                 }
             }else{
                 return("-1");
@@ -257,11 +257,11 @@ function getNPF(){
                 if(resultData.qpf.indexOf("-") == -1){
                     let unidade = "";
                     let numero = Number(resultData.qpf.substring(0, resultData.qpf.length))
-                    return(converteQPparaNP(numero, unidade));
+                    return(`${converteQPparaNP(numero, unidade)}-b`);
                 }else{
                     let unidade = resultData.qpf.substring(resultData.qpf.indexOf("-") + 1, resultData.qpf.length);
                     let numero = Number(resultData.qpf.substring(0, resultData.qpf.indexOf("-")));
-                    return(converteQPparaNP(numero, unidade));
+                    return(`${converteQPparaNP(numero, unidade)}-b`);
                 }
             }else{
                 return("-1");
