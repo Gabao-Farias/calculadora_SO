@@ -12,6 +12,15 @@ body{
     border-radius: 20px;
 }
 
+#instructions {
+    font-size: 26px;
+    color: #fff;
+    background-color: rgb(43, 180, 128);
+    padding: 10px 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
 #insertion{
     text-align: center;
     background-color: #333;
